@@ -22,7 +22,6 @@ Navigate to the terraform directory.
 Initialize the Terraform working directory by running the following command:
 
 
-```bash
 terraform init
 
 
@@ -39,6 +38,7 @@ Once the resources are created, the Terraform output will display the VPC peerin
 Navigate to the AWS VPC console to verify the VPC peering connection has been successfully created.
 
 To destroy the resources, run the following command:
+
 
 terraform destroy
 
