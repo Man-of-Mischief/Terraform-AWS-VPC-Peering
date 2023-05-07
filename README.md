@@ -22,12 +22,16 @@ Navigate to the terraform directory.
 Initialize the Terraform working directory by running the following command:
 
 ```bash
+
 terraform init
+
 
 Modify the variables.tf file to customize the VPCs' settings as per your requirement.
 Modify the provider.tf file to specify your AWS region and credentials.
 
 Run the following command to create the VPC resources:
+
+```bash
 
 terraform apply
 
