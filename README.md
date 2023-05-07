@@ -21,6 +21,7 @@ Navigate to the terraform directory.
 
 Initialize the Terraform working directory by running the following command:
 
+```bash
 terraform init
 
 Modify the variables.tf file to customize the VPCs' settings as per your requirement.
